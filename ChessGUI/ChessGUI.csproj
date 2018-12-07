@@ -46,6 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\chessProgram\chessProgram\Board.cs">
+      <Link>Board.cs</Link>
+    </Compile>
+    <Compile Include="..\..\chessProgram\chessProgram\enums.cs">
+      <Link>enums.cs</Link>
+    </Compile>
+    <Compile Include="..\..\chessProgram\chessProgram\Field.cs">
+      <Link>Field.cs</Link>
+    </Compile>
+    <Compile Include="..\..\chessProgram\chessProgram\Pieces\Bishop.cs">
+      <Link>Pieces\Bishop.cs</Link>
+    </Compile>
+    <Compile Include="..\..\chessProgram\chessProgram\Pieces\Castle.cs">
+      <Link>Pieces\Castle.cs</Link>
+    </Compile>
+    <Compile Include="..\..\chessProgram\chessProgram\Pieces\King.cs">
+      <Link>Pieces\King.cs</Link>
+    </Compile>
+    <Compile Include="..\..\chessProgram\chessProgram\Pieces\Knight.cs">
+      <Link>Pieces\Knight.cs</Link>
+    </Compile>
+    <Compile Include="..\..\chessProgram\chessProgram\Pieces\Pawn.cs">
+      <Link>Pieces\Pawn.cs</Link>
+    </Compile>
+    <Compile Include="..\..\chessProgram\chessProgram\Pieces\Piece.cs">
+      <Link>Pieces\Piece.cs</Link>
+    </Compile>
+    <Compile Include="..\..\chessProgram\chessProgram\Pieces\Queen.cs">
+      <Link>Pieces\Queen.cs</Link>
+    </Compile>
+    <Compile Include="chessControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="chessControl.Designer.cs">
+      <DependentUpon>chessControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
